@@ -1,0 +1,1 @@
+{'status': 'paused', 'file': '/home/sirplatypus/harddrive/Music/Bon Jovi/Slippery When Wet (Album)/05 Wanted Dead Or Alive.mp3', 'artist': 'Bon Jovi', 'album': 'Slippery When Wet', 'discnumber': '1', 'tracknumber': '5', 'title': 'Wanted Dead Or Alive', 'duration': '308'}
