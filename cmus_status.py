@@ -42,11 +42,10 @@ if image_file == "":
     image_file = "/tmp/image"
 
 
-info = [title, artist, album]
 if os.path.isfile("/tmp/song.pickle"):
     with open("/tmp/song.pickle", "rb") as f:
-        last_info = pickle.load(f)
-    if last_info != info:
+        last_path = pickle.load(f)
+    if last_path != file_path:
         notification = Notify.Notification.new(title, artist, image_file)
         notification.props.id = 6502
         notification.show()
@@ -55,4 +54,4 @@ else:
     notification.props.id = 6502
     notification.show()
 with open("/tmp/song.pickle", "wb") as f:
-    pickle.dump([title, artist, album], f)
+    pickle.dump(file_path, f)
