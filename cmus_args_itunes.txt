@@ -1,1 +1,0 @@
-{'status': 'playing', 'file': '/home/sirplatypus/harddrive/Music/Asia/Asia/02 Only Time Will Tell.m4a', 'artist': 'Asia', 'album': 'Asia', 'discnumber': '1', 'tracknumber': '2', 'title': 'Only Time Will Tell', 'date': '1982-03-01T08:00:00Z', 'duration': '285'}
